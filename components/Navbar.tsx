@@ -59,6 +59,16 @@ function Navbar(props: Props): ReactElement {
                 Blog
               </Button>
             </li>
+            <li className="flex items-center">
+              <Button
+                className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="/faq"
+                iconClass="fa-solid fa-question"
+                transparent={true}
+              >
+                FAQ
+              </Button>
+            </li>
           </ul>
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="flex items-center">

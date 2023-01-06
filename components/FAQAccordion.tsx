@@ -18,8 +18,7 @@ const FAQAccordion = ({ questions }: FAQAccordionProps) => {
       {questions.map((question, index) => (
         <div key={index} className="py-2 px-4">
           <Button
-            iconClass="fa-solid fa-person"
-            // className="block text-left font-bold text-xl py-2 px-4 bg-white hover:bg-gray-100 focus:outline-none focus:shadow-outline-blue"
+            iconClass="fa-solid fa-caret-down"
             onClick={() => setExpanded(expanded === index ? null : index)}
           >
             {question.title}

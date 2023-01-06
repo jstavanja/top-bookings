@@ -19,7 +19,7 @@ const IndexPage = () => (
       title="Frequently asked questions"
       text="Want to know more about scheduling and reservation apps or Slotter in general? Read more here."
     />
-    <div className="w-full md:w-8/12 m-12 px-4">
+    <div className="w-full md:w-8/12 lg:m-12 md:m-4 mb-8 mt-8 px-4">
       <FAQAccordion questions={formattedQuestionsForEasierRendering} />
     </div>
   </Layout>
