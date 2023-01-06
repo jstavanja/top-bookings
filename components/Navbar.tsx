@@ -76,6 +76,14 @@ function Navbar(props: Props): ReactElement {
                 Get in touch
               </Button>
             </li>
+            <li className="flex items-center ml-2">
+              <Button
+                iconClass="fa-solid fa-computer"
+                href={process.env.NEXT_PUBLIC_DASHBOARD_APP_URL ?? ""}
+              >
+                See demo app
+              </Button>
+            </li>
           </ul>
         </div>
       </div>
