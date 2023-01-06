@@ -28,9 +28,10 @@ function Footer(): ReactElement {
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
             <h5 className="text-lg mt-0 mb-2 text-gray-700">
-              Find us on any of these platforms, we respond 1-2 business days.
+              Send us a contact message through the form and we'll be in touch
+              with you within a few business days.
             </h5>
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <button
                 className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
@@ -55,7 +56,7 @@ function Footer(): ReactElement {
               >
                 <i className="flex fab fa-github"></i>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="w-full lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
@@ -82,7 +83,7 @@ function Footer(): ReactElement {
                   </li>
                 </ul>
               </div>
-              <div className="w-full lg:w-4/12 px-4">
+              {/* <div className="w-full lg:w-4/12 px-4">
                 <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
                   Other Resources
                 </span>
@@ -112,7 +113,7 @@ function Footer(): ReactElement {
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

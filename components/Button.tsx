@@ -1,21 +1,21 @@
 import Link from "next/link";
-import { MouseEventHandler, ReactElement } from "react";
+import { FC, MouseEventHandler, PropsWithChildren, ReactElement } from "react";
 
 interface ButtonProps {
-  text: string;
   iconClass: string;
   onClick?: MouseEventHandler;
   href?: string;
   transparent?: boolean;
+  className?: string;
 }
 
-export const Button = ({
-  text,
+export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   iconClass,
   onClick,
   href,
   transparent,
-}: ButtonProps) => {
+  children,
+}) => {
   const btn = (
     <button
       className={
@@ -28,7 +28,7 @@ export const Button = ({
       onClick={onClick}
       style={{ transition: "all .15s ease" }}
     >
-      <i className={iconClass}></i> {text}
+      <i className={iconClass}></i> {children}
     </button>
   );
 
