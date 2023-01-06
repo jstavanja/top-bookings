@@ -1,3 +1,5 @@
+import { NextSeo } from "next-seo";
+
 import { Hero } from "../../components/Hero";
 import { Layout } from "../../components/Layout";
 import { POSTS } from "../../constants/posts";
@@ -11,6 +13,11 @@ interface BlogPostProps {
 const BlogPost = ({ post }: BlogPostProps) => {
   return (
     <Layout title={`Slotter | ${post.title}`}>
+      <NextSeo
+        description={`A blog post about ${
+          post.title
+        }. Talks about: ${post.text.substring(0, 120)} ...`}
+      />
       <Hero
         backgroundImage="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
         title={post.title}

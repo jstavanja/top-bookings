@@ -1,8 +1,11 @@
+import { NextSeo } from "next-seo";
+
 import { Hero } from "../components/Hero";
 import { Layout } from "../components/Layout";
 
 const IndexPage = () => (
   <Layout title="Slotter | About">
+    <NextSeo description="An about page where you can get to know more about Slotter in general." />
     <Hero
       backgroundImage="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
       title="Who are we?"

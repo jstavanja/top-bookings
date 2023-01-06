@@ -7,8 +7,7 @@ export const POSTS: Post[] = [
     ctaText: "Read",
     imageSrc: teamImage,
     title: "Why do I need a scheduling system?",
-    text: `
-    User-friendly interface: Our app is designed to be easy to use for both clients and businesses, making it simple for clients to book appointments and for businesses to manage their schedules.
+    text: `User-friendly interface: Our app is designed to be easy to use for both clients and businesses, making it simple for clients to book appointments and for businesses to manage their schedules.
 
 Simple editing tools: Slotter's straightforward editing tools allow businesses to easily manage their timeslots and offered services, saving time and streamlining their booking process.
 
@@ -33,8 +32,7 @@ By utilizing these functionalities, Slotter can help improve your business by ma
     id: "3",
     ctaText: "Read",
     imageSrc: teamImage,
-    text: `
-    Using a reservation app like Slotter can greatly improve the flow of reservations for your barber shop. Here's how the process works:
+    text: `Using a reservation app like Slotter can greatly improve the flow of reservations for your barber shop. Here's how the process works:
 
 Clients can easily book appointments online through Slotter's user-friendly interface. This means that they can easily browse available timeslots, select the service they want, and book an appointment at their convenience.
 
@@ -52,8 +50,7 @@ By using a reservation app like Slotter, you can streamline the booking process,
     id: "4",
     ctaText: "Read",
     imageSrc: teamImage,
-    text: `
-    Using a reservation app like Slotter can greatly improve the flow of reservations for your beauty salon. Here's how the process works:
+    text: `Using a reservation app like Slotter can greatly improve the flow of reservations for your beauty salon. Here's how the process works:
 
 Clients can easily book appointments online through Slotter's user-friendly interface. This means that they can easily browse available timeslots, select the service they want, and book an appointment at their convenience.
 
