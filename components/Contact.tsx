@@ -7,11 +7,18 @@ export const Contact = () => (
             <form
               className="flex-auto p-5 lg:p-10"
               data-netlify="true"
+              netlify-honeypot="bot-field"
               name="contact"
             >
               <h4 className="text-2xl font-semibold">Want to work with us?</h4>
               <p className="leading-relaxed mt-1 mb-4 text-gray-600">
                 Complete this form and we will get back to you in 24 hours.
+              </p>
+              <p className="hidden">
+                <label>
+                  Don&apos;t fill this out if you’re human:
+                  <input name="bot-field" />
+                </label>
               </p>
               <div className="relative w-full mb-3 mt-8">
                 <label
