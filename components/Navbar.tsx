@@ -22,7 +22,7 @@ function Navbar(props: Props): ReactElement {
           <Link
             className={
               (props.transparent ? "text-white" : "text-gray-800") +
-              " title-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+              " title-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap"
             }
             href="/"
           >
@@ -53,7 +53,7 @@ function Navbar(props: Props): ReactElement {
               <Button
                 className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="/blog"
-                iconClass="fa-solid fa-square-rss"
+                iconClass="fa-solid fa-square-rss mr-1"
                 transparent={true}
               >
                 Blog
@@ -61,9 +61,9 @@ function Navbar(props: Props): ReactElement {
             </li>
             <li className="flex items-center">
               <Button
-                className="px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                className="ml-2 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="/faq"
-                iconClass="fa-solid fa-question"
+                iconClass="fa-solid fa-question mr-1"
                 transparent={true}
               >
                 FAQ
