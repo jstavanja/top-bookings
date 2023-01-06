@@ -1,3 +1,5 @@
+import { NextSeo } from "next-seo";
+
 import { BlogPosts } from "../../components/BlogPosts";
 import { Hero } from "../../components/Hero";
 import { Layout } from "../../components/Layout";

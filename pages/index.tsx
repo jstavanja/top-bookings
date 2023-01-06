@@ -1,5 +1,6 @@
-import { Layout } from "../components/Layout";
+import { NextSeo } from "next-seo";
 
+import { Layout } from "../components/Layout";
 import { Hero } from "../components/Hero";
 import { Services } from "../components/Services";
 import { Featured } from "../components/Featured";
@@ -8,6 +9,7 @@ import { Contact } from "../components/Contact";
 
 const IndexPage = () => (
   <Layout title="Slotter | Make the most of your time">
+    <NextSeo description="Easily book appointments and manage your schedule with Slotter, the top-rated scheduling and reservation app. Try it out today!" />
     <Hero
       backgroundImage="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
       title="Make the most of your time."

@@ -26,11 +26,11 @@ function Footer(): ReactElement {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-            <h5 className="text-lg mt-0 mb-2 text-gray-700">
+            <p className="text-3xl font-semibold">Let's keep in touch!</p>
+            <p className="text-lg mt-0 mb-2 text-gray-700">
               Send us a contact message through the form and we'll be in touch
               with you within a few business days.
-            </h5>
+            </p>
             {/* <div className="mt-6">
               <button
                 className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"

@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react";
 import Head from "next/head";
+import { NextSeo } from "next-seo";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -16,6 +17,7 @@ export const Layout = (props: PropsWithChildren<Props>) => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <NextSeo title={props.title} />
       <header>
         <Navbar transparent={true} />
       </header>
