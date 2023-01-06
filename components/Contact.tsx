@@ -7,6 +7,8 @@ export const Contact = () => (
             <form
               className="flex-auto p-5 lg:p-10"
               data-netlify="true"
+              action="/contact-success"
+              method="POST"
               netlify-honeypot="bot-field"
               name="contact"
             >
