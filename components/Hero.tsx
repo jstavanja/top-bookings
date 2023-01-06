@@ -1,4 +1,10 @@
-export const Hero = () => (
+interface HeroProps {
+  backgroundImage: string;
+  title: string;
+  text: string;
+}
+
+export const Hero = ({ backgroundImage, title, text }: HeroProps) => (
   <div
     className="relative pt-16 pb-32 flex content-center items-center justify-center"
     style={{
@@ -8,8 +14,7 @@ export const Hero = () => (
     <div
       className="absolute top-0 w-full h-full bg-center bg-cover"
       style={{
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+        backgroundImage: `url('${backgroundImage}')`,
       }}
     >
       <span
@@ -21,15 +26,8 @@ export const Hero = () => (
       <div className="items-center flex flex-wrap">
         <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
           <div className="pr-12">
-            <h1 className="text-white font-semibold text-5xl">
-              Make the most of your time.
-            </h1>
-            <p className="mt-4 text-lg text-gray-300">
-              With a user-friendly interface and simple editing tools, our app
-              makes it easy to book appointments and manage schedules. Plus, our
-              app is optimized for search engines, making it easier for
-              potential clients to discover your business.
-            </p>
+            <h1 className="text-white font-semibold text-5xl">{title}</h1>
+            <p className="mt-4 text-lg text-gray-300">{text}</p>
           </div>
         </div>
       </div>

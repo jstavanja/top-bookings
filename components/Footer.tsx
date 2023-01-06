@@ -65,12 +65,12 @@ function Footer(): ReactElement {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a
+                    <Link
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
+                      href="/about"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <Link
