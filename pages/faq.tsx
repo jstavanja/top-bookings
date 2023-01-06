@@ -15,7 +15,7 @@ const IndexPage = () => (
   <Layout title="Slotter | About">
     <LDJson structuredData={allFAQLDJson} />
     <Hero
-      backgroundImage="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
+      backgroundImage="https://images.unsplash.com/photo-1606238630091-1564f645695a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
       title="Frequently asked questions"
       text="Want to know more about scheduling and reservation apps or Slotter in general? Read more here."
     />
