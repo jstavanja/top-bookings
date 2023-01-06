@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { ReactElement } from "react";
 
 function Footer(): ReactElement {
@@ -72,12 +73,12 @@ function Footer(): ReactElement {
                     </a>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
+                      href="/blog"
                     >
                       Blog
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
