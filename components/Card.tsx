@@ -44,10 +44,11 @@ export const Card = ({
           <p className="text-md font-light mt-2 text-white">{text}</p>
           {ctaText && ctaLink && (
             <Button
-              text={ctaText}
               href={ctaLink}
               iconClass="fa-solid fa-arrow-up-right-from-square"
-            />
+            >
+              {ctaText}
+            </Button>
           )}
         </blockquote>
       </div>

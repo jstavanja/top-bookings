@@ -1,10 +1,10 @@
 interface HeroProps {
   backgroundImage: string;
   title: string;
-  text: string;
+  text?: string;
 }
 
-export const Hero = ({ backgroundImage, title, text }: HeroProps) => (
+export const Hero = ({ backgroundImage, title, text = "" }: HeroProps) => (
   <div
     className="relative pt-16 pb-32 flex content-center items-center justify-center"
     style={{

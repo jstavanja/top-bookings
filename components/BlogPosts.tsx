@@ -1,46 +1,16 @@
-import teamImage from "../assets/img/team-2-800x800.jpg";
+import { POSTS } from "../constants/posts";
 import { Card } from "./Card";
-
-const POSTS = [
-  {
-    ctaLink: "/more",
-    ctaText: "Read",
-    imageSrc: teamImage,
-    text: "Something",
-    title: "Blog post 1",
-  },
-  {
-    ctaLink: "/more",
-    ctaText: "Read",
-    imageSrc: teamImage,
-    text: "Something",
-    title: "Blog post 1",
-  },
-  {
-    ctaLink: "/more",
-    ctaText: "Read",
-    imageSrc: teamImage,
-    text: "Something",
-    title: "Blog post 1",
-  },
-  {
-    ctaLink: "/more",
-    ctaText: "Read",
-    imageSrc: teamImage,
-    text: "Something",
-    title: "Blog post 1",
-  },
-];
 
 export const BlogPosts = () => {
   return (
     <div className="flex flex-wrap items-center mt-32 mb-32">
       {POSTS.map((post) => (
         <Card
-          ctaLink={post.ctaLink}
+          key={post.id}
+          ctaLink={`/blog/${post.id}`}
           ctaText={post.ctaText}
           imageSrc={post.imageSrc}
-          text={post.text}
+          text={post.text.substring(0, 120) + "..."}
           title={post.title}
         />
       ))}
