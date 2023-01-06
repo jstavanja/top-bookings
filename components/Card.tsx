@@ -44,6 +44,7 @@ export const Card = ({
           <p className="text-md font-light mt-2 text-white">{text}</p>
           {ctaText && ctaLink && (
             <Button
+              className="mt-2"
               href={ctaLink}
               iconClass="fa-solid fa-arrow-up-right-from-square"
             >
