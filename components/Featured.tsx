@@ -39,9 +39,14 @@ export const Featured = () => (
             </div>
             <h3 className="text-3xl font-semibold">A growing company</h3>
             <p className="mt-4 text-lg leading-relaxed text-gray-600">
-              The extension comes with three pre-built pages to help you get
-              started faster. You can change the text and images and you're good
-              to go.
+              As a growing company, Slotter is always looking for ways to tailor
+              our app to the specific needs of our customers. Whether it's
+              customizing the booking process, adding new features, or
+              optimizing the app for different industries, we're committed to
+              delivering the best possible experience for our clients. If you
+              have any specific needs or requests for how we can improve our app
+              for your business, don't hesitate to let us know. We're always
+              open to feedback and suggestions from our customers.
             </p>
             <ul className="list-none mt-6">
               <li className="py-2">
@@ -66,7 +71,7 @@ export const Featured = () => (
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-gray-600">Amazing page examples</h4>
+                    <h4 className="text-gray-600">Amazing performance</h4>
                   </div>
                 </div>
               </li>
@@ -78,7 +83,9 @@ export const Featured = () => (
                     </span>
                   </div>
                   <div>
-                    <h4 className="text-gray-600">Dynamic components</h4>
+                    <h4 className="text-gray-600">
+                      Amazing reach and conversion
+                    </h4>
                   </div>
                 </div>
               </li>

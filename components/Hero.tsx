@@ -22,12 +22,13 @@ export const Hero = () => (
         <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
           <div className="pr-12">
             <h1 className="text-white font-semibold text-5xl">
-              Your story starts with us.
+              Make the most of your time.
             </h1>
             <p className="mt-4 text-lg text-gray-300">
-              This is a simple example of a Landing Page you can build using
-              Tailwind Starter Kit. It features multiple CSS components based on
-              the Tailwindcss design system.
+              With a user-friendly interface and simple editing tools, our app
+              makes it easy to book appointments and manage schedules. Plus, our
+              app is optimized for search engines, making it easier for
+              potential clients to discover your business.
             </p>
           </div>
         </div>

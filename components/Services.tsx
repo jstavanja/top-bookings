@@ -11,10 +11,10 @@ export const Services = () => (
               <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                 <i className="fas fa-award"></i>
               </div>
-              <h6 className="text-xl font-semibold">Awarded Agency</h6>
+              <h6 className="text-xl font-semibold">User-friendly interface</h6>
               <p className="mt-2 mb-4 text-gray-600">
-                Divide details about your product or agency work into parts. A
-                paragraph describing a feature will be enough.
+                Our app is designed to be easy to use for both clients and
+                businesses.
               </p>
             </div>
           </div>
@@ -26,10 +26,10 @@ export const Services = () => (
               <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                 <i className="fas fa-retweet"></i>
               </div>
-              <h6 className="text-xl font-semibold">Free Revisions</h6>
+              <h6 className="text-xl font-semibold">Simple editing tools</h6>
               <p className="mt-2 mb-4 text-gray-600">
-                Keep you user engaged by providing meaningful information.
-                Remember that by this time, the user is curious.
+                Businesses can easily manage their timeslots and offered
+                services with our straightforward editing tools.{" "}
               </p>
             </div>
           </div>
@@ -41,10 +41,12 @@ export const Services = () => (
               <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                 <i className="fas fa-fingerprint"></i>
               </div>
-              <h6 className="text-xl font-semibold">Verified Company</h6>
+              <h6 className="text-xl font-semibold">
+                Search engine optimization
+              </h6>
               <p className="mt-2 mb-4 text-gray-600">
-                Write a few lines about each one. A paragraph describing a
-                feature will be enough. Keep you user engaged!
+                Our app is optimized for search engines, making it easier for
+                potential clients to discover your business.
               </p>
             </div>
           </div>
@@ -57,19 +59,17 @@ export const Services = () => (
             <i className="fas fa-user-friends text-xl"></i>
           </div>
           <h3 className="text-3xl mb-2 font-semibold leading-normal">
-            Working with us is a pleasure
+            The features don't stop there...
           </h3>
           <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-            Don't let your uses guess by attaching tooltips and popoves to any
-            element. Just make sure you enable them first via JavaScript.
+            In addition to all of the features we've already mentioned, Slotter
+            also offers a customizable booking process, mobile optimization,
+            notifications, a review system, multiple payment options, and
+            advanced scheduling tools.
           </p>
-          <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-            The kit comes with three pre-built pages to help you get started
-            faster. You can change the text and images and you're good to go.
-            Just make sure you enable them first via JavaScript.
-          </p>
+
           <a href="#" className="font-bold text-gray-800 mt-8">
-            Check Tailwind Starter Kit!
+            Try Slotter!
           </a>
         </div>
 
@@ -97,12 +97,14 @@ export const Services = () => (
                 ></polygon>
               </svg>
               <h4 className="text-xl font-bold text-white">
-                Top Notch Services
+                Most likely the ultimate booking app...
               </h4>
               <p className="text-md font-light mt-2 text-white">
-                The Arctic Ocean freezes every winter and much of the sea-ice
-                then thaws every summer, and that process will continue whatever
-                happens.
+                Our features allow businesses to tailor the booking process to
+                their specific needs, make it easy for clients to book
+                appointments on the go, stay informed about upcoming
+                appointments, choose from multiple payment options, and manage
+                their schedules more efficiently.
               </p>
             </blockquote>
           </div>

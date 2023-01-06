@@ -79,22 +79,6 @@ function Footer(): ReactElement {
                       Blog
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      Free Products
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div className="w-full lg:w-4/12 px-4">
@@ -102,14 +86,6 @@ function Footer(): ReactElement {
                   Other Resources
                 </span>
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="#"
-                    >
-                      MIT License
-                    </a>
-                  </li>
                   <li>
                     <a
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
